@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="Abdelslam_Abdelslam_jar_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Abdelslam.demo.Model.Entities.Nom</class>
+    <class>Abdelslam.demo.Model.Entities.Categorie</class>
+    <class>Abdelslam.demo.Model.Entities.Reclamation</class>
+    <class>Abdelslam.demo.Model.Entities.Produit</class>
+    <class>Abdelslam.demo.Model.Entities.Message</class>
+    <class>Abdelslam.demo.Model.Entities.Promotion</class>
+    <class>Abdelslam.demo.Model.Entities.Commande</class>
+    <class>Abdelslam.demo.Model.Entities.User</class>
+    <class>Abdelslam.demo.Model.Entities.Commentaire</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/marche?serverTimezone=UTC"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
